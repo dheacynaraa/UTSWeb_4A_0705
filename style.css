@@ -40,3 +40,38 @@ nav a:hover {
     background-color: #08a5e8;
     color: #ffffff;
 }
+
+#btnTicket:hover {
+  background-color: #096a94;
+  color: #ffffff;
+}
+
+/* === Home === */
+#home {
+  min-height: 100vh;
+  background-color: #001720;
+  padding: 3rem 4.5rem;
+}
+
+.left-hero {
+  max-width: 500px;
+}
+
+.left-hero h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.sea {
+  color: #08a5e8;
+}
+
+.left-hero p {
+  color: #ffffff;
+  font-weight: 500;
+  max-width: 450px;
+  margin-bottom: 1.7rem;
+}
