@@ -1,7 +1,7 @@
 * {
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -37,8 +37,9 @@ nav a:hover {
 }
 
 #btnTicket {
-    background-color: #08a5e8;
-    color: #ffffff;
+  background-color: #08a5e8;
+  color: #ffffff;
+  padding: 0.4rem 1.5rem;
 }
 
 #btnTicket:hover {
@@ -49,7 +50,17 @@ nav a:hover {
 /* === Home === */
 #home {
   min-height: 100vh;
-  background-color: #001720;
+  background:
+    linear-gradient(
+      to right,
+      rgba(0, 10, 30, 0.9) 5%,
+      rgba(0, 20, 50, 0.6) 45%,
+      rgba(0, 0, 0, 0.1) 60%
+    ),
+    url("assets/aquarium.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 3rem 4.5rem;
 }
 
