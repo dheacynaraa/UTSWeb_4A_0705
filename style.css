@@ -92,13 +92,21 @@ nav a:hover {
   margin-bottom: 1.7rem;
 }
 
+/* === Section === */
 .section-label {
   display: inline-block;
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #5ac5d3;
+  color: #08a5e8;
+  margin-bottom: 0.3rem;
+}
+
+.section-desc {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #065679;
   margin-bottom: 2rem;
 }
 
@@ -155,10 +163,10 @@ nav a:hover {
 .card-animals {
   position: relative;
   width: 300px;
-  height: 180px;
+  height: 190px;
   overflow: hidden;
   border-radius: 20px;
-  border: 2px solid #74bcdb;
+  border: 3px solid #065679;
 }
 
 .card-animals::before{
@@ -182,10 +190,17 @@ nav a:hover {
 
 .animals-desc {
   position: absolute;
-  bottom: 5px;
+  bottom: 2px;
   left: 20px;
   color: white;
   z-index: 2;
   text-align: start;
   max-width: 200px;
+}
+
+#animals .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
 }
