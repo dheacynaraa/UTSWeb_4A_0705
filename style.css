@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+body {
+  background-image: url(assets/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
 /* === Navigation === */
 header {
   background: rgba(0, 0, 0, 0.15);
