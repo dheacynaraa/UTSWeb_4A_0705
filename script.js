@@ -1,3 +1,4 @@
+// DOM FAQ
 const faqs = [
   {
     q: "What are the opening hours?",
@@ -30,4 +31,16 @@ faqs.forEach((f, i) => {
     item.classList.toggle("open");
   });
   faqList.appendChild(item);
+});
+
+//  DOM Tickets 
+const modalElement = document.getElementById("successModal");
+
+const successModal = new bootstrap.Modal(modalElement);
+
+document.querySelectorAll(".ticket-btn").forEach((button) => {
+  button.addEventListener("click", () => {
+    console.log("button diklik");
+    successModal.show();
+  });
 });
