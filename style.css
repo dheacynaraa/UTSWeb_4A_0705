@@ -537,7 +537,7 @@ nav a:hover {
 
 /* === Contact ==== */
 #contact {
-  padding: 180px 80px 80px;
+  padding: 100px 80px 80px;
   min-height: 100vh;
   text-align: center;
 }
@@ -553,8 +553,8 @@ nav a:hover {
 
 .contact-info {
   flex: 1;
-  background-color: #eaf9ff;
-  border: 1px solid #88dbe6;
+  background-color: #022e41;
+  border: 1px solid #058ec9;
   border-radius: 12px;
   padding: 2rem;
 }
@@ -562,7 +562,7 @@ nav a:hover {
 .contact-info h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #000000;
+  color: rgb(180, 224, 253);
   margin-bottom: 1.2rem;
 }
 
@@ -574,12 +574,12 @@ nav a:hover {
 }
 
 .contact-icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: #1e90ff;
-  color: white;
-  font-size: 25px;
+  background: #058ec9;
+  color: rgb(217, 237, 250);
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -589,7 +589,7 @@ nav a:hover {
 .contact p {
   margin: 0;
   font-weight: 500;
-  color: #000000;
+  color: rgb(217, 237, 250);
 }
 
 .sosmed {
@@ -604,18 +604,23 @@ nav a:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #b5e6fa;
-  color: white;
+  background: #1e90ff;
+  color: rgb(217, 237, 250);
   font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+}
+
+.sosmed-icon:hover {
+  background-color: #058ec9;
 }
 
 .contact-form {
   flex: 1;
-  background-color: #eaf9ff;
-  border: 1px solid #88dbe6;
+  background-color: #022e41;
+  border: 1px solid #058ec9;
   border-radius: 12px;
   padding: 2rem;
 }
@@ -629,7 +634,7 @@ nav a:hover {
 .contact-form h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #000000;
+  color: rgb(180, 224, 253);
   margin-bottom: 0.8rem;
 }
 
@@ -640,7 +645,7 @@ nav a:hover {
 .contact-form label {
   display: block;
   font-size: 1rem;
-  color: #000000;
+  color: rgb(217, 237, 250);
   margin-bottom: 0.3rem;
   font-weight: 500;
 }
@@ -648,8 +653,8 @@ nav a:hover {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  background-color: #b5e6fa;
-  border: 1px solid #b5e6fa;
+  background-color: rgb(217, 237, 250);
+  border: 1px solid rgb(217, 237, 250);
   border-radius: 1px;
   color: #000000;
   font-size: 0.9rem;
@@ -658,8 +663,8 @@ nav a:hover {
 
 .input-wrapper {
   padding: 0.7rem 1rem;
-  background-color: #b5e6fa;
-  border: 1px solid b5e6fa;
+  background-color: rgb(217, 237, 250);
+  border: 1px solid #058ec9;
   border-radius: 8px;
   transition: border-color 0.3s;
   resize: vertical;
@@ -686,7 +691,6 @@ nav a:hover {
 }
 
 .contact-form button:hover {
-  background-color: #58aafc;
-  color: #21262d;
+  background-color: #058ec9;
   transform: translateY(-2px);
 }
