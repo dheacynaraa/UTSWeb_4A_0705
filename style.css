@@ -494,3 +494,159 @@ nav a:hover {
   max-height: 200px;
   padding-bottom: 20px;
 }
+
+/* === Contact ==== */
+#contact {
+  padding: 180px 80px 80px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto 0;
+}
+
+.contact-info {
+  flex: 1;
+  background-color: #eaf9ff;
+  border: 1px solid #88dbe6;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1.2rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #1e90ff;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.contact p {
+  margin: 0;
+  font-weight: 500;
+  color: #000000;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.sosmed-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #b5e6fa;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  flex: 1;
+  background-color: #eaf9ff;
+  border: 1px solid #88dbe6;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.8rem;
+}
+
+.contact-form form div {
+  margin-bottom: 0.8rem;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background-color: #b5e6fa;
+  border: 1px solid #b5e6fa;
+  border-radius: 1px;
+  color: #000000;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.input-wrapper {
+  padding: 0.7rem 1rem;
+  background-color: #b5e6fa;
+  border: 1px solid b5e6fa;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+  resize: vertical;
+}
+
+.input-wrapper:focus {
+  border-color: #e05a3a;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.7rem 0rem;
+  background-color: #1e90ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+
+.contact-form button:hover {
+  background-color: #58aafc;
+  color: #21262d;
+  transform: translateY(-2px);
+}
