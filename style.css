@@ -218,7 +218,7 @@ nav a:hover {
 
 /* === Activity === */
 #activity {
-  padding: 180px 80px 80px;
+  padding: 100px 80px 80px;
   min-height: 100vh;
   text-align: center;
 }
@@ -231,13 +231,19 @@ nav a:hover {
 }
 
 .card-activity {
+  background-color: #022e41;
   margin-top: 2rem;
   position: relative;
   width: 300px;
   overflow: visible;
   border-radius: 20px;
-  box-shadow: 0 0.1px 3px rgb(87, 167, 199);
+  border: 1px solid #058ec9;
   padding: 40px 0 0;
+  transition: transform 0.3s;
+}
+
+.card-activity:hover {
+  transform: translateY(-8px);
 }
 
 .activity-icon {
@@ -248,15 +254,21 @@ nav a:hover {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: #1e90ff;
-  color: white;
+  background: #058ec9;
+  color: rgb(180, 224, 253);
   font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.activity-desc h5 {
+  color: rgb(180, 224, 253);
+}
+
 .activity-desc p {
+  color:rgb(217, 237, 250);
+  font-weight: 500;
   padding: 0 20px 0;
   margin-bottom: 1rem;
 }
