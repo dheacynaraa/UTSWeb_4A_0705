@@ -396,7 +396,7 @@
           </div>
         </div>
 
-        <!-- Modal Transaction Verification -->
+        <!-- Modal Transaction Success -->
         <div class="modal fade" id="successModal" tabindex="-1">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -591,9 +591,85 @@
                       placeholder="Enter your message"
                     ></textarea>
                   </div>
-                  <button type="submit">Send Message</button>
+                  <button class="contact-btn" type="submit">Send Message</button>
                 </div>
               </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Success Modal -->
+        <div class="modal fade" id="successContactModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div
+                class="modal-header justify-content-center position-relative"
+              >
+                <h5 class="modal-title">Message Status</h5>
+                <button
+                  type="button"
+                  class="btn-close position-absolute end-0 me-3"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <div class="modal-body text-center">
+                <i class="fa-solid fa-circle-check text-success fs-1"></i>
+
+                <h4 class="mt-3">Message Sent Successful!</h4>
+
+                <p class="fw-bold">
+                  Thank you for contact us.
+                </p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  OK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Failed Contact Modal -->
+        <div class="modal fade" id="failedContactModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div
+                class="modal-header justify-content-center position-relative"
+              >
+                <h5 class="modal-title">Message Status</h5>
+                <button
+                  type="button"
+                  class="btn-close position-absolute end-0 me-3"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <div class="modal-body text-center">
+                <i class="fa-solid fa-circle-xmark text-danger fs-1"></i>
+
+                <h4 class="mt-3">Message Failed to Sent!</h4>
+
+                <p class="fw-bold">
+                  Please complete all required fields.
+                </p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  OK
+                </button>
+              </div>
             </div>
           </div>
         </div>

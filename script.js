@@ -33,14 +33,39 @@ faqs.forEach((f, i) => {
   faqList.appendChild(item);
 });
 
-//  DOM Tickets 
+//  DOM Tickets
 const modalElement = document.getElementById("successModal");
 
 const successModal = new bootstrap.Modal(modalElement);
 
 document.querySelectorAll(".ticket-btn").forEach((button) => {
   button.addEventListener("click", () => {
-    console.log("button diklik");
     successModal.show();
+  });
+});
+
+//  DOM Contact
+const contactModalElementS = document.getElementById("successContactModal");
+const contactModalElementF = document.getElementById("failedContactModal");
+
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
+
+const successContactModal = new bootstrap.Modal(contactModalElementS);
+const failedContactModal = new bootstrap.Modal(contactModalElementF);
+
+document.querySelectorAll(".contact-btn").forEach((button) => {
+  button.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (
+      name.value.trim() === "" ||
+      email.value.trim() === "" ||
+      message.value.trim() === ""
+    ) {
+      failedContactModal.show();
+    } else {
+      successContactModal.show();
+    }
   });
 });
